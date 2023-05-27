@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobs",
+  "info": {
+    "singularName": "job",
+    "pluralName": "jobs",
+    "displayName": "招聘管理",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "职位名称"
+    },
+    "location": {
+      "type": "string",
+      "default": "发布地点"
+    },
+    "salary": {
+      "type": "string",
+      "default": "薪资"
+    },
+    "companyname": {
+      "type": "string",
+      "default": "公司名称"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "date": {
+      "type": "datetime",
+      "default": "2023-05-09T16:02:00.000Z"
+    },
+    "keywords": {
+      "type": "string",
+      "default": "职位关键字"
+    },
+    "diploma": {
+      "type": "enumeration",
+      "enum": [
+        "A高中",
+        "B大专",
+        "C本科",
+        "D硕士"
+      ],
+      "default": "C本科"
+    },
+    "description": {
+      "type": "richtext",
+      "default": "职位描述"
+    }
+  }
+}

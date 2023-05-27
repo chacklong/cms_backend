@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cases",
+  "info": {
+    "singularName": "case",
+    "pluralName": "cases",
+    "displayName": "案例管理"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

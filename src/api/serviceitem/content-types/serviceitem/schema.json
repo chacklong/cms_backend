@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "serviceitems",
+  "info": {
+    "singularName": "serviceitem",
+    "pluralName": "serviceitems",
+    "displayName": "业务管理"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
